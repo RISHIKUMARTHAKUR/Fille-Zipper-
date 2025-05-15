@@ -61,3 +61,18 @@ g++ huffman.cpp -o filezipper
 * Understanding greedy algorithm applications in real-world systems
 
 ---
+### How to run:
+1. Copy and paste into a .cpp file (e.g., filezipper.cpp
+2. Compile: g++ filezipper.cpp -o filezipper
+3. Run: ./filezipper
+4. Input any string you want to compress.
+
+
+### What this code does:
+1. Reads input text.
+2. Calculates frequency of each character.
+3. Builds Huffman Tree using a min-heap.
+4. Generates Huffman codes for each character.
+5. Encodes the text to a binary string.
+6. Decodes it back to original text.
+7. Prints codes, encoded string, and decoded string.
